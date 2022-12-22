@@ -8,8 +8,8 @@ const About = () => {
     <ul className='flex justify-center mt-10 '>
     {
         info.map((inf)=>
-      
-        <li className='p-4 w-72 '>
+        
+        <li key={inf.name} className='p-4 w-72 '>
                 <img src={inf.image} className="w-60 h-60 rounded-xl "></img>
             <h1 className='text-white font-semibold text-center mt-3'>{inf.name}</h1>
             <h6 className='text-white font-semibold text-center mt-3'>{inf.title}</h6>
