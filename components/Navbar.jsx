@@ -10,11 +10,12 @@ const Navbar = () => {
     <ul className='text-lg flex gap-5 '>
     <li className='transition ease-in-out duration-75 delay-75 hover:text-blue-700 cursor-pointer p-2'>
      About Us
-    </li>
+    </li><Link href={"/projects/1"}>
     <li className='transition ease-in-out duration-75 delay-75 hover:text-blue-700 cursor-pointer p-2'>
-      <a href="#projects"> Projects</a>
-   
+      <h1>Projects</h1>
     </li>
+    </Link>
+   
     <li className='transition ease-in-out duration-75 delay-75 hover:text-blue-700 cursor-pointer p-2 capitalize'>
     Reach out now!
     </li>
