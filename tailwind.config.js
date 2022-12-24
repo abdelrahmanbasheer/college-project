@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        '3xl': '1700px',
+      },
       backgroundImage: {
         'hero': "url('/hero.webp')",
         'footer-texture': "url('/img/footer-texture.png')",

@@ -6,7 +6,7 @@ const comms = () => {
   return (
     <div className='bg-black bg-hero h-full bg-repeat-y'>
     <Head>
-      <title>Stakeholder Analysis</title>
+      <title>communications management plan</title>
     </Head>
     <Navbar></Navbar>
     <h1 className='text-white text-3xl text-center font-bold mt-10'>Project Management Project</h1>
@@ -26,6 +26,16 @@ The intended audience of the <strong>Fraud prevention </strong> CMP is the proje
         <h1 className='text-white text-xl ml-4 font-bold mt-10 text-center' >COMMUNICATIONS VEHICLES</h1>
         <h1 className='text-white text-xl ml-4 font-bold ' >2.1	COMMUNICATIONS MATRIX</h1>
         <img src={"/comms2.png"} alt="" className='block ml-auto mr-auto w-[50%] mt-12'/>
+        </li>
+        <li className='text-white text-xl '>
+        
+        <h1 className='text-white text-xl ml-4 font-bold' >2.1.1  Project Reporting</h1>
+        <img src={"/comms3.png"} alt="" className='block ml-auto mr-auto w-[50%] mt-12'/>
+        </li>
+        <li className='text-white text-xl ml-4'>
+        <h1 className='text-white text-xl  font-bold' >Communications Management Plan approval</h1>
+        The undersigned acknowledge they have reviewed the <strong>Fraud prevention </strong> Communications Management Plan and agree with the approach it presents.  Changes to this Communications Management Plan will be coordinated with and approved by the undersigned or their designated representatives.
+        <img src={"/comms4.png"} alt="" className='block ml-auto mr-auto w-[50%] mt-12'/>
         </li>
       </ul>
   </div>
