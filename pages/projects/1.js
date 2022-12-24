@@ -40,13 +40,13 @@ const One = () => {
       <Link href={"/projects/1/wbs"}>
       <img src={"/wbs1.png"} alt="" className='w-[500px] h-[300px]'/>
       </Link>
-      <h1 className='text-white text-2xl text-center font-bold mt-3 cursor-default capitalize'>Scope Statement</h1>
+      <h1 className='text-white text-2xl text-center font-bold mt-3 cursor-default capitalize'>Work breakdown structure</h1>
     </li>
     <li className='ml-5'>
       <Link href={"https://sharing.clickup.com/9004001498/g/h/8cawa6u-82/b36865963f4669e"} target="_blank">
       <img src={"/gant.png"} alt="" className='w-[500px] h-[300px]'/>
       </Link>
-      <h1 className='text-white text-2xl text-center font-bold mt-3 cursor-default capitalize'>Scope Statement</h1>
+      <h1 className='text-white text-2xl text-center font-bold mt-3 cursor-default capitalize'>gant char & network diagram</h1>
     </li>
     <li className='ml-5'>
       <Link href={"/projects/1/res"}>
