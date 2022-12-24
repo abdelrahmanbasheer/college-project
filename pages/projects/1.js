@@ -64,7 +64,7 @@ const One = () => {
       <Link href={"/projects/1/mile"}>
       <img src={"/mile1.webp"} alt="" className='w-[500px] h-[300px]'/>
       </Link>
-      <h1 className='text-white text-2xl text-center font-bold mt-3 cursor-default capitalize'>project team meeting</h1>
+      <h1 className='text-white text-2xl text-center font-bold mt-3 cursor-default capitalize'>milestone report</h1>
     </li>
     <li className='ml-5'>
       <Link href={"/projects/1/meeting"}>
