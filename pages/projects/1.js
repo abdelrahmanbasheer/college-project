@@ -72,6 +72,42 @@ const One = () => {
       </Link>
       <h1 className='text-white text-2xl text-center font-bold mt-3 cursor-default capitalize'>project team meeting</h1>
     </li>
+    <li className='ml-5'>
+      <Link href={"/projects/1/clientaccep"}>
+      <img src={"/pm.jpg"} alt="" className='w-[500px] h-[300px]'/>
+      </Link>
+      <h1 className='text-white text-2xl text-center font-bold mt-3 cursor-default capitalize'>client acceptance</h1>
+    </li>
+    <li className='ml-5'>
+      <Link href={"/projects/1/lessons"}>
+      <img src={"/pm.jpg"} alt="" className='w-[500px] h-[300px]'/>
+      </Link>
+      <h1 className='text-white text-2xl text-center font-bold mt-3 cursor-default capitalize'>Lessons Learned</h1>
+    </li>
+    <li className='ml-5'>
+      <Link href={"/projects/1/projectdesc"}>
+      <img src={"/pm.jpg"} alt="" className='w-[500px] h-[300px]'/>
+      </Link>
+      <h1 className='text-white text-2xl text-center font-bold mt-3 cursor-default capitalize'>project description</h1>
+    </li>
+    <li className='ml-5'>
+      <Link href={"/projects/1/weeklystat"}>
+      <img src={"/pm.jpg"} alt="" className='w-[500px] h-[300px]'/>
+      </Link>
+      <h1 className='text-white text-2xl text-center font-bold mt-3 cursor-default capitalize'>Weekly status report</h1>
+    </li>
+    <li className='ml-5'>
+      <Link href={"/projects/1/stateofwork"}>
+      <img src={"/pm.jpg"} alt="" className='w-[500px] h-[300px]'/>
+      </Link>
+      <h1 className='text-white text-2xl text-center font-bold mt-3 cursor-default capitalize'>state of work</h1>
+    </li>
+    <li className='ml-5'>
+      <Link href={"/projects/1/monthlyprog"}>
+      <img src={"/pm.jpg"} alt="" className='w-[500px] h-[300px]'/>
+      </Link>
+      <h1 className='text-white text-2xl text-center font-bold mt-3 cursor-default capitalize'>monthly prog</h1>
+    </li>
     </ul>
     <h1>B</h1>
     </section>
